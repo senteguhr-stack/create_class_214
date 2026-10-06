@@ -13,3 +13,7 @@ class Point:
         dx = self.x - other.x
         dy = self.y - other.y
         return sqrt(dx * dx + dy * dy)
+
+    def translate(self, dx, dy):
+        self.x += dx
+        self.y += dy
