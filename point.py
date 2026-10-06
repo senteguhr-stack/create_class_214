@@ -17,3 +17,6 @@ class Point:
     def translate(self, dx, dy):
         self.x += dx
         self.y += dy
+
+    def __str__(self):
+        return "(" + str(self.x) + ", " + str(self.y) + ")"
